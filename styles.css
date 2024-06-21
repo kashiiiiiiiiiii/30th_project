@@ -1,0 +1,37 @@
+main {
+    width: 50%;
+    height: 500px;
+    box-shadow: 0px 0px 5px 2px lime;
+    margin: 2rem auto;
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+    align-items: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    border: 2px solid rgb(255, 0, 183);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 0.5rem;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px 4px pink;
+    padding-bottom: 10px;
+}
+.image img{
+    clip-path: circle();
+    margin-top: -40px;
+}
+.btn button{
+    padding: 0.7rem 2rem;
+    border: none;
+    background-color:darkslateblue;
+    border-radius: 20px;
+}
